@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="a webpage with embeded multimedia features " content="plp web development week2 assignment">
+        <meta title="week2 assignment">
+    </head>
+    <body>
+        <header>
+            <h1></h1>
+            <nav>
+                <ol type="roman">
+                    <li><a href="personal information">personal information</a></li>
+                    <li><a href="audio">audio</a></li>
+                    <li><a href="image">image</a></li>
+                    <li><a href="video">video</a></li>
+                </ol>
+            </nav>
+        </header>
+        <main>
+           <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                        <label for="fullname">name:</label>
+                        <input type="text" id="fullname" name="fullname"><br>
+                        <label for="email">email</label>
+                        <input type="text" id="email" name="email" required><br>
+                        <label for="password">password</label>
+                        <input type="text" id="password" name="password" required><br>
+                        <br>
+                        <label for="gender">gender</label>
+                        <input type="radio" id="gender" name="gender" value="male">
+                        <input type="radio" id="gender" name="gender" value="female">
+                        <br>
+                        <label for="country">country</label>
+                        <select name="country" id="country">
+                        <option>select country of origin</option>
+                        <option value="kenya">kenya</option>
+                        <option value="nigeria">nigeria</option>
+                        <option value="rwanda">rwanda</option>
+                        <option value="south africa">south africa</option>
+                </select>
+                </fieldset>
+                <h3>categoty of classes available</h3>
+                <label for="class">select classes wish to attend</label>
+                    <br>
+                    <input type="checkbox" name="class" value="ai">ai
+                    <input type="checkbox" name="class" value="mobile_dev">mobile_dev
+                    <input type="checkbox" name="class" value="software fulldev">software fulldev
+                    <input type="checkbox" name="class" value="data analysis">data analysis
+                    <input type="checkbox" name="class" value="cybersecurity">cybersecurity       
+           </form>
+           <h4>audio</h4>
+           <audio src="toosi.mp3" controls></audio>
+           <h4>image</h4>
+           <img src="cat.png" alt="image of an angry dog" width="500" height="600">
+           <h4>video</h4>
+           <video src="venice.mp4" controls width="500" height="600"></video>
+        </main>
+
+    </body>
+    <footer>
+
+    </footer>
+</html>
